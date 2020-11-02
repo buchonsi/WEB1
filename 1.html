@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>HTML 노트정리</title>
+<meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+  <h2>HTML - egoing 강의 정리</h2>
+  <img src="img1.jpg" width="90%" height="60%">
+  <p>
+    오늘 배운 내용에는 HTML에서 사용하는 문법(테그(TAG)) 몇가지를 배웠다. 그 중 첫번째는 글자를 <strong>진하게 칠하는 법</strong>을 배웠다. 두번째는 <u>밑줄 치는 법</u>, u는 underline의 약자이다.
+  </p>
+  <p style="margin-top:30px">
+    <strong>'h'</strong>는 h1~h6까지 사용할 수 있다. 약간 제목을 쓸 때 사용하는 것 같으며 줄바꿈과 글자굵기가 자동으로 조정 된다. 구글검색에서 나온 것<br>(<u>Only use one 'h1' per page - this should represent the main heading/subject for the whole page. Also, do not skip heading levels - start with 'h1', then use 'h2', and so on.</u>)<br>
+    해석해보면 한페이지당 'h1'은 1개를 사용하고 1~6의 숫자는 순차적으로 사용해야한다는 내용인듯.
+  </p>
+  <p>
+    <strong>'br'</strong>는 줄바꿈 테그 - 구간을 사용하지 않음
+    <strong>'p'</strong> 는 단락 테그 - 구간을 사용(열린테그와 닫힌 테그) > 단락을 구분할 때는 'p'를 사용. > 간격은 css문법 사용
+  </p>
+  <p>
+    <strong>'img'</strong>는 사진을 넣을 수 있는 테그.<br>사진파일을 html이 저장된 폴더에 넣고 이미지테그에 속성을 넣어서 꾸며주면 사용 가능.<br>src는 파일의 이름, width는 가로 길이, height는 세로 길이 숫자로 사용하든지 퍼센트 사용가능(ex: 450, 100%)<br>
+    <u><a href="https://unsplash.com/" target="_blank" title="unslash.com">저작권 없는 사이트</a></u>
+  </p>
+  <p>
+    부모자식코드라는 것이 있다. <strong>'ul'</strong>은(Onordered List) 부모 <strong>'li'</strong>는 자식, > 목차를 만드는 코드이다.
+    그리고 <strong>'ul'</strong>대신 <strong>'ol'</strong>(Ordered List)을 사용하면 앞에 숫자가 붙는다.<br>
+    그리고 <strong>'table'</strong>테그는 3대가 같이 다닌다 > <strong>'tr'</strong>, <strong>'td'</strong> <br>
+    <strong>'tr'</strong>은 열, <strong>'td'</strong>는 그 열의 행이다.
+  </p>
+  <p>
+    <strong>'title'</strong>은 웹페이지의 제목이다. > 검색엔진에서 검색을 했을때 타이틀을 제목으로써 검색을 하기때문에 중요하다.<br>
+    <strong>'한글이 안나오는 경우'</strong> : 맨위에 '<strong>meta charset="utf-8"</strong>'을 사용한다.<br>
+    title과 mata는 본문을 설명한다 이 부분은 <strong>'head'</strong>로 묶는다. 그리고 본문은 <strong>body</strong>로 묶고 그리고 이 전체는 <strong>'html'</strong>로 묶고(head와 body를 감싼다) 그 위에는 관용적으로 <strong>'!doctype html'</strong>을 작성한다.
+  </p>
+  <p>
+    <strong>'a'</strong>는 링크를 의미한다.<br>
+    링크사용방법은 '<strong>a href="주소"</strong>'<br>
+    속성 <strong>target</strong>은 새탭에서 링크 열기, <strong>title</strong>은 마우스 오버시 내용.
+</body>
